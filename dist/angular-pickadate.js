@@ -111,7 +111,7 @@
       'pickadateI18n', 'dateFilter', function($locale, $sce, $compile, $document, $window, dateUtils, i18n, dateFilter) {
 
       var TEMPLATE =
-        '<div class="pickadate" ng-show="displayPicker" ng-style="styles">' +
+        '<div class="pickadate pickadateposfix" ng-show="displayPicker" ng-style="styles">' +
           '<div class="pickadate-header">' +
             '<div class="pickadate-controls">' +
               '<a href="" class="pickadate-prev" ng-click="changeMonth(-1)" ng-show="allowPrevMonth">' +
