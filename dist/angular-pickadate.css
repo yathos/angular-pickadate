@@ -5,6 +5,11 @@
     .pickadate a:visited {
       color: #666666; }
 
+.pickadateposfix{
+  top:35px !important;;
+  left: 10px !important;
+}
+
 .pickadate-header {
   position: relative; }
 
